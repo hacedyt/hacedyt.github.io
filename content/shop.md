@@ -6,5 +6,7 @@ const eleventyNavigation = {
 ---
 # Shop
 
+<h1><span style="color: red;">COMING</span> SOON!!!</h1>
+
 
 
