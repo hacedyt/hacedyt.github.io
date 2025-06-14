@@ -124,3 +124,7 @@ https://github.com
 11ty
 
 https://css-pattern.com
+
+https://colorpicker.autiomaa.org/
+
+https://rsms.me/inter/
