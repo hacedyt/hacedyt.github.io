@@ -6,6 +6,6 @@ const eleventyNavigation = {
 ---
 # Gallery
 
-nothing here yet
+<h1><span style="color: red;">COMING</span> SOON!!!</h1>
 
 
