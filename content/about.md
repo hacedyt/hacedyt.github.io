@@ -6,5 +6,5 @@ const eleventyNavigation = {
 ---
 # About Me
 
-i am HacedYT and i am 15 years old and i love making content.I am depressed.
+i am HacedYT and i am X years old and i love making content. I am depressed.
 
