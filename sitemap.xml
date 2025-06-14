@@ -17,6 +17,11 @@
 	</url>
 	
 	<url>
+		<loc>https://example.com/blog/fifthpost/</loc>
+		<lastmod>2023-01-23</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://example.com/blog/firstpost/</loc>
 		<lastmod>2025-06-06</lastmod>
 	</url>
