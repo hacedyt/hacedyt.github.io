@@ -1,6 +1,6 @@
 ---js
-const title = "(draft)";
-const date = "2023-01-23";
+const title = "coding going well. website in progress";
+const date = "2025-06-15";
 const draft = false;
 ---
 This is a draft post
