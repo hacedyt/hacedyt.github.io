@@ -1,0 +1,437 @@
+# robots.txt
+#
+# Disallow file & directory paths from search engines
+#
+# Specs: http://www.robotstxt.org/robotstxt.html
+
+# (Google) Search crawler
+# https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
+User-agent: Googlebot
+Allow: /
+
+
+
+# (Google) Images crawler
+User-agent: Googlebot-Image
+Allow: /
+
+
+
+# (Google) Mobile crawler
+User-agent: Googlebot-Mobile
+Allow: /
+
+
+
+# (Google) News crawler
+User-agent: Googlebot-News
+Disallow: /
+
+# (Google) Video crawler
+User-agent: Googlebot-Video
+Disallow: /
+
+# (Google) "used by Search testing tools"
+User-agent: Google-InspectionTool
+Allow: /
+
+
+
+# (Google) "generic crawler that may be used by various product teams"
+User-agent: GoogleOther
+Disallow: /
+
+# (Google) Mediapartners crawler
+User-agent: Mediapartners-Google
+Disallow: /
+
+# (Google) Ads crawler
+User-agent: AdsBot-Google
+Disallow: /
+
+# (Google) Ecommerce crawler
+User-agent: Storebot-Google
+Disallow: /
+
+# (Google) Search Appliance crawler
+# https://www.google.com/support/enterprise/static/gsa/docs/admin/current/gsa_doc_set/admin_crawl/preparing.html
+User-agent: gsa-crawler
+Disallow: /
+
+# (Google) AI crawler
+# https://searchengineland.com/google-extended-crawler-432636
+# https://darkvisitors.com/agents/google-extended
+User-agent: Google-Extended
+Disallow: /
+
+# (OpenAI, L.L.C.) ChatGPT crawler 1
+# https://platform.openai.com/docs/bots
+# https://darkvisitors.com/agents/chatgpt-user
+# "ChatGPT-User is dispatched by OpenAI's ChatGPT in response to user prompts."
+User-agent: ChatGPT-User
+Disallow: /
+
+# (OpenAI, L.L.C.) ChatGPT crawler 2
+# https://platform.openai.com/docs/bots
+# https://darkvisitors.com/agents/gptbot
+User-agent: GPTBot
+Disallow: /
+
+# (OpenAI, L.L.C.) OAI-SearchBot
+# https://openai.com/index/searchgpt-prototype/
+# "a temporary prototype of new AI search features"
+# https://platform.openai.com/docs/bots
+# "OAI-SearchBot is for search."
+User-agent: OAI-SearchBot
+Disallow: /
+
+# Anthropic crawler 1
+# ("Claude is an AI assistant built by Anthropic")
+# https://darkvisitors.com/agents/claudebot
+User-agent: ClaudeBot
+Disallow: /
+
+# Anthropic crawler 2
+# https://darkvisitors.com/agents/claude-web
+User-agent: Claude-Web
+Disallow: /
+
+# Anthropic crawler 3
+# https://darkvisitors.com/agents/anthropic-ai
+# "anthropic-ai is [...] used [...] to download training data for its LLMs"
+User-agent: anthropic-ai
+Disallow: /
+https://darkvisitors.com/agents/claude-web
+
+# X/Twitter
+User-agent: Twitterbot
+Disallow: /
+
+# (Meta) FacebookExternalHit
+# https://developers.facebook.com/docs/sharing/webmasters/web-crawlers
+# "The primary purpose of FacebookExternalHit is to crawl
+# the content of an app or website that was shared on
+# one of Meta’s family of apps, such as Facebook, Instagram, or Messenger."
+# User-agent: facebookexternalhit
+# User-agent: facebookcatalog
+
+# (Meta) Facebook AI crawler
+# https://developers.facebook.com/docs/sharing/bot/
+# "FacebookBot crawls public web pages to improve language models
+# for our speech recognition technology. We use polite web crawling
+# protocols that respect standard robots.txt rules."
+# https://darkvisitors.com/agents/facebookbot
+User-agent: FacebookBot
+Disallow: /
+
+# (Meta) Meta-ExternalAgent
+# https://developers.facebook.com/docs/sharing/webmasters/web-crawlers
+# "The Meta-ExternalAgent crawler crawls the web for use cases such as
+# training AI models or improving products by indexing content directly."
+User-agent: meta-externalagent
+Disallow: /
+
+# Meta-ExternalFetcher
+# https://developers.facebook.com/docs/sharing/webmasters/web-crawlers
+# "The Meta-ExternalFetcher crawler performs user-initiated
+# fetches of individual links to support specific product functions.
+# Because the fetch was initiated by a user,
+# this crawler may bypass robots.txt rules."
+# User-agent: meta-externalfetcher
+# Disallow: /
+
+# Common Crawl
+# https://commoncrawl.org/ccbot
+# https://darkvisitors.com/agents/ccbot
+User-agent: CCBot
+Disallow: /
+
+# Cohere crawler
+# ("Enterprise AI Platform")
+# https://cohere.com/
+# https://darkvisitors.com/agents/cohere-ai
+User-agent: cohere-ai
+Disallow: /
+
+# Omgili crawler 1
+# https://webz.io/
+# https://webz.io/blog/web-data/what-is-the-omgili-bot-and-why-is-it-crawling-your-website/
+# https://darkvisitors.com/agents/omgili
+# "Omgili is a web crawler used by Webz.io to maintain a repository of
+# web crawl data that it sells to other companies,
+# including those using it to train AI models."
+User-agent: omgilibot
+Disallow: /
+
+# Omgili crawler 2
+# https://darkvisitors.com/agents/omgili
+User-agent: omgili
+Disallow: /
+
+# Amazon crawler
+User-agent: Amazonbot
+Disallow: /
+
+# Perplexity crawler
+User-agent: PerplexityBot
+Disallow: /
+
+# YouBot crawler
+User-agent: YouBot
+Disallow: /
+
+# Diffbot
+# "Web Data for your AI"
+# https://www.diffbot.com/
+# https://darkvisitors.com/agents/diffbot
+User-agent: Diffbot
+Disallow: /
+
+# (Timpi Inc.) Timpibot
+# https://darkvisitors.com/agents/timpibot
+# "Timpibot is used by Timpi's decentralized network of [...] node operators."
+User-agent: Timpibot
+Disallow: /
+
+# Internet Archive
+# https://archive.org/details/archive.org_bot
+# https://whatmyuseragent.com/bots/archive-org-bot
+User-agent: archive.org_bot
+
+
+
+# DuckDuckGo crawler
+User-agent: DuckDuckBot
+Allow: /
+
+
+
+# Yahoo! Search crawler
+User-Agent: Slurp
+Allow: /
+
+
+
+# (Microsoft) Search crawler
+User-Agent: msnbot
+Allow: /
+
+# (Microsoft) MSNBot-Media Images crawler
+User-agent: msnbot-media
+Allow: /
+
+
+
+# (Microsoft) Bing Search crawler
+# https://blogs.bing.com/webmaster/May-2012/To-crawl-or-not-to-crawl,-that-is-BingBot-s-questi/
+User-Agent: bingbot
+Allow: /
+
+# (Microsoft) Bing Ads crawler
+User-agent: adidxbot
+Disallow: /
+
+# Twitter crawler
+# https://udger.com/resources/ua-list/bot-detail?bot=Twitterbot
+User-agent: Twitterbot/1.0
+Allow: /
+
+# Apple crawler (Siri)
+# https://support.apple.com/en-gb/HT204683
+# https://darkvisitors.com/agents/applebot
+User-agent: Applebot
+Allow: /
+
+# Apple crawler ("AI")
+# https://darkvisitors.com/agents/applebot-extended
+User-agent: Applebot-Extended
+Disallow: /
+
+# (Castle Global, Inc.) Imagesift by Hive
+# https://imagesift.com/about
+# "ImageSiftBot is a web crawler that scrapes the internet for
+# publicly available images to support our suite of web intelligence products"
+# https://thehive.ai/privacy
+User-Agent: ImagesiftBot
+Disallow: /
+
+# (Ask) Teoma crawler
+# https://en.wikipedia.org/wiki/Teoma
+User-agent: Teoma
+Allow: /
+
+
+
+# (Mojeek Limited) generic crawler
+# https://www.mojeek.com/bot.html
+User-agent: MojeekBot
+Allow: /
+
+
+
+# (SEOmoz) rogerbot crawler
+# https://udger.com/resources/ua-list/bot-detail?bot=rogerbot
+# https://moz.com/help/moz-procedures/crawlers/rogerbot
+
+# (SEOmoz) dotbot crawler
+# https://udger.com/resources/ua-list/bot-detail?bot=DotBot
+# https://moz.com/help/moz-procedures/crawlers/dotbot
+User-agent: dotbot
+Disallow: /
+
+# SemrushBot crawler
+# https://udger.com/resources/ua-list/bot-detail?bot=SemrushBot
+# https://www.semrush.com/bot/
+User-agent: SemrushBot
+Disallow: /
+
+# DeepCrawl crawler
+# https://udger.com/resources/ua-list/bot-detail?bot=deepcrawl
+# https://www.deepcrawl.com/bot/
+User-agent: deepcrawl
+Disallow: /
+
+# (Majestic) MJ12bot crawler
+# https://udger.com/resources/ua-list/bot-detail?bot=MJ12bot
+User-agent: MJ12bot
+Disallow: /
+
+# 360Spider crawler
+# https://udger.com/resources/ua-list/bot-detail?bot=360Spider
+User-agent: 360Spider
+Disallow: /
+
+# Sogou crawler
+# https://useragentstring.com/sogou%20spider_id_5749.php
+User-agent: Sogou
+Disallow: /
+
+# Yandex Search crawler
+User-agent: Yandex
+Disallow: /
+
+# Rambler crawler
+# https://useragentstring.com/index.php?id=4238
+User-agent: StackRambler
+Disallow: /
+
+# Unwanted crawler
+User-agent: Mail.RU_Bot
+Disallow: /
+
+# MegaIndex crawler 1
+User-agent: MegaIndex
+Disallow: /
+
+# MegaIndex crawler 2
+User-agent: MegaIndex.ru
+Disallow: /
+
+# (Baidu) General crawler
+# https://yoast.com/ultimate-guide-robots-txt/
+User-agent: baiduspider
+Disallow: /
+
+# (Baidu) Images crawler
+User-agent: baiduspider-image
+Disallow: /
+
+# (Baidu) Mobile crawler
+User-agent: baiduspider-mobile
+Disallow: /
+
+# (Baidu) News crawler
+User-agent: baiduspider-news
+Disallow: /
+
+# (Baidu) Video crawler
+User-agent: baiduspider-video
+Disallow: /
+
+# (Baidu) generic crawler
+User-agent: baidu
+Disallow: /
+
+# (ByteDance/TikTok/Doubao) ByteSpider crawler
+# https://darkvisitors.com/agents/bytespider
+# "used to download training data for its LLMs"
+User-agent: ByteSpider
+Disallow: /
+
+# (Taobao) eTao
+# "product search engine"
+User-agent: EtaoSpider
+Disallow: /
+
+# (Kakao Corp.) Daumoa crawler
+# https://udger.com/resources/ua-list/bot-detail?bot=Daumoa
+User-agent: daumoa
+Disallow: /
+
+# (Kakao Corp.) DAUM crawler
+User-agent : DAUM
+Disallow : /
+
+# (NAVER Corp) NAVER crawler
+# https://udger.com/resources/ua-list/bot-detail?bot=naverbot
+User-agent: naverbot
+Disallow: /
+
+# (NAVER Corp) Yeti crawler
+User-agent: Yeti
+Disallow: /
+
+# Neevabot crawler
+# https://udger.com/resources/ua-list/bot-detail?bot=Neevabot
+# https://neeva.com/neevabot
+User-agent: Neevabot
+Disallow: /
+
+# Zoombot crawler
+# https://udger.com/resources/ua-list/bot-detail?bot=Zoombot
+User-agent: Zoombot
+Disallow: /
+
+# OrangeBot crawler
+# https://udger.com/resources/ua-list/bot-detail?bot=OrangeBot
+User-agent: OrangeBot
+Disallow: /
+
+# SeznamBot crawler
+# https://napoveda.seznam.cz/en/seznambot-crawler/
+User-agent: seznambot
+Disallow: /
+
+# Pinterest crawler
+# https://help.pinterest.com/en/business/article/pinterest-crawler
+user-agent: Pinterestbot
+disallow: /
+
+# Semrush
+User-agent: SemrushBot
+Disallow: /
+
+# (Datafiniti, LLC) 008 crawler
+# https://80legs.com/
+# https://en.wikipedia.org/wiki/80legs
+User-agent: 008
+Disallow: /
+
+# (aiHit Ltd.)
+# https://www.aihitdata.com/about
+# https://whatmyuseragent.com/bots/aihitbot
+# "Company Database"
+User-agent: aiHitBot
+Disallow: /
+
+# Dataprovider.com crawler (used by Google, etc.)
+# https://www.dataprovider.com/cases/
+# https://www.dataprovider.com/spider/
+User-agent: Dataprovider.com
+Allow: /
+
+# Every bot that might possibly read and respect this file
+User-agent: *
+
+# Wait 1 second between successive requests.
+Crawl-delay: 1
