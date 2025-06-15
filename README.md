@@ -18,16 +18,6 @@ node -v # Should print "v22.16.0".
 npm -v # Should print "10.9.2".
 ```
 
-### Installing `open-cli`
-
-> [!info] https://www.npmjs.com/package/open-cli
->
-> “Open stuff like URLs, files, executables. Cross-platform.”
-
-```powershell
-npm install --global open-cli
-```
-
 ## Getting Started
 
 * [Want a more generic/detailed getting started guide?](https://www.11ty.dev/docs/getting-started/)
