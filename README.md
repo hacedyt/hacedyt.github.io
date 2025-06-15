@@ -2,6 +2,32 @@
 
 A starter repository showing how to build a blog with the [Eleventy](https://www.11ty.dev/) site generator (using the [v3.0 release](https://github.com/11ty/eleventy/releases/tag/v3.0.0)).
 
+## Installing Node.js with [Volta](https://docs.volta.sh/guide/getting-started) and [winget](https://github.com/microsoft/winget-cli)
+
+```powershell
+# On most Unix systems including macOS, you can install with a single command:
+winget install Volta.Volta
+
+# Download and install Node.js:
+volta install node@22
+
+# Verify the Node.js version:
+node -v # Should print "v22.16.0".
+
+# Verify npm version:
+npm -v # Should print "10.9.2".
+```
+
+### Installing `open-cli`
+
+> [!info] https://www.npmjs.com/package/open-cli
+>
+> “Open stuff like URLs, files, executables. Cross-platform.”
+
+```powershell
+npm install --global open-cli
+```
+
 ## Getting Started
 
 * [Want a more generic/detailed getting started guide?](https://www.11ty.dev/docs/getting-started/)
