@@ -18,4 +18,4 @@ Link works Three days. Reuploading every 10 days.
 
 LINK
 
----> https://discord.gg/CgJmHXNv
+---> .https://discord.gg/CgJmHXNv
