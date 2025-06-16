@@ -8,6 +8,8 @@ const eleventyNavigation = {
 
 I am gonna upload every video here:
 
+https://youtu.be/XltdNjAhmtI?si=v-JjtH1aep_Lw5SH
+
 <h1><span style="color: purple;">T</span>witch</h1>
 
 I am gonna upload every Stream here:
