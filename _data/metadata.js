@@ -1,7 +1,7 @@
 export default {
 		module.exports = {
   title: "Haced YT/TW", //
-  logo: "./haced_logo.png"
+  logo: "haced_logo.png"
 };
 	url: "https://haced.yt/",
 	language: "en",
