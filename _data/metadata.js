@@ -1,6 +1,5 @@
 export default {
 		module.exports = {
-  title: "m,
   logo: "/hacedyt_logo.png"
 };
 	url: "https://haced.yt/",
