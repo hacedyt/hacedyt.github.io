@@ -1,7 +1,5 @@
 export default {
-module.exports {
 	title: "Haced YT/TW",
-	logo: "/hacedyt_logo.png",
 	url: "https://haced.yt/",
 	language: "en",
 	description: "I am dumble.",
