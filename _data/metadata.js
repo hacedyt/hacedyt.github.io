@@ -1,5 +1,5 @@
 export default {
-	title: "Haced yt/tw",
+	title: <img src="./hacedyt_logo.png" alt="hacedyt_logo">,
 	url: "https://example.com/",
 	language: "en",
 	description: "I am dumble.",
