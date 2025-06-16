@@ -1,6 +1,6 @@
 export default {
 			title: "Haced YT/TW",
-	logo: "/hacedyt.png",
+	logo: "/hacedyt_logo.png",
 	url: "https://haced.yt/",
 	language: "en",
 	description: "I am dumble.",
