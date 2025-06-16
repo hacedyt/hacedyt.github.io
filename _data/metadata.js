@@ -1,7 +1,7 @@
 export default {
 		module.exports = {
+			title: "moi",
   logo: "/hacedyt_logo.png"
-};
 	url: "https://haced.yt/",
 	language: "en",
 	description: "I am dumble.",
