@@ -1,5 +1,4 @@
 export default {
-	module.exports = {
   title: "Haced YT/TW", //
   logo: "/haced_logo.png"
 };
