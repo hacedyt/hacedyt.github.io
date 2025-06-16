@@ -1,6 +1,8 @@
 export default {
-	title: "Haced YT/TW",
-	logo: "./hacedyt_logo.png", // Add a key for the logo path
+	module.exports = {
+  title: "Haced YT/TW", //
+  logo: "/haced_logo.png"
+};
 	url: "https://haced.yt/",
 	language: "en",
 	description: "I am dumble.",
