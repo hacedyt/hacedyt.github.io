@@ -47,11 +47,11 @@
 
 		<header>
 			<a href="/" class="home-link">
-  {% if metadata.logo %}
-    <img src="hacedyt_logo.png" alt="hacedyt_logo">
-  {% else %}
-    {{ metadata.title }}
-  {% endif %}
+  {% if hacedyt_logo.png %}
+  <img src="{{ hacedyt_logo.png }}" alt="{{ hacedyt_logo }}">
+{% else %}
+  <h1>{{ metadata.title }}</h1>
+{% endif %}
 </a>
 
 			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
