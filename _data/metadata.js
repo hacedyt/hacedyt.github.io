@@ -1,6 +1,7 @@
 export default {
-	title: (img src="./hacedyt_logo.png" alt="hacedyt_logo"),
-	url: "https://example.com/",
+	title: "Haced YT/TW",
+	logo: "./hacedyt_logo.png", // Add a key for the logo path
+	url: "https://haced.yt/",
 	language: "en",
 	description: "I am dumble.",
 	author: {
