@@ -14,9 +14,11 @@ https://youtu.be/XltdNjAhmtI?si=v-JjtH1aep_Lw5SH
 
 I am gonna upload every Stream here:
 
+milo
+
 <h1><span style="color: lightskyblue;">Dis</span>cord</h1>
 
-Link works Three days. Reuploading every 10 days.
+Link works Three days. Reuploading every 10 days
 
 LINK
 
