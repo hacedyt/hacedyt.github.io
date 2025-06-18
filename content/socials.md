@@ -14,7 +14,7 @@ https://youtu.be/XltdNjAhmtI?si=v-JjtH1aep_Lw5SH
 
 I am gonna upload every Stream here:
 
-milo
+
 
 <h1><span style="color: lightskyblue;">Dis</span>cord</h1>
 
