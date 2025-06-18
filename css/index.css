@@ -368,10 +368,10 @@ html {
 	background-size: var(--s) var(--s);
 }*/
 
-/*html {
+html {
 	--s: 240px;
-	/* control the size*/
-	/*--c1: #202020;
+	 control the size
+	--c1: #202020;
 	--c2: #191919;
 
 	--_g: radial-gradient(#0000 60%, var(--c1) 61% 63%, #0000 64% 77%, var(--c1) 78% 80%, #0000 81%);
@@ -383,4 +383,4 @@ html {
 		conic-gradient(at 20% 12% var(--_c)) calc(.4*var(--s)) calc(var(--s)*-.06),
 		var(--_g), var(--_g) calc(var(--s)/2) calc(var(--s)/2) var(--c2);
 	background-size: var(--s) var(--s);
-} */
+} 
