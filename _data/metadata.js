@@ -1,5 +1,5 @@
 export default {
-	title: "Haced YT",
+	title: "Haced YT RL",
 	url: "https://haced.yt/",
 	language: "en",
 	description: "I am dumble.",
