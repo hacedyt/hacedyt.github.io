@@ -368,37 +368,20 @@ h1 {
 	padding: 0;
 }
 
-* {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+html {
+	--s: 112px;
+	/* control the size*/
+	--c1: #151515;
+	--c2: #000000;
 
-    body {
-      min-height: 100vh;
-      background: #1a1a1a;
-      overflow: hidden;
-    }
-
-    .wrapper {
-      display: grid;
-      width: 100vw;
-      height: 100vh;
-      grid-template-columns: repeat(8, 1fr);
-      gap: 2px;
-    }
-
-    .column {
-      display: grid;
-      grid-template-rows: repeat(auto-fill, minmax(1rem, 1fr));
-      gap: 2px;
-    }
-
-    .box {
-      width: 100%;
-      height: 100%;
-      transition: background-color 0.3s ease;
-    }</style>
+	--_g:
+		var(--c2) 6% 14%, var(--c1) 16% 24%, var(--c2) 26% 34%, var(--c1) 36% 44%,
+		var(--c2) 46% 54%, var(--c1) 56% 64%, var(--c2) 66% 74%, var(--c1) 76% 84%, var(--c2) 86% 94%;
+	background:
+		radial-gradient(100% 100% at 100% 0, var(--c1) 4%, var(--_g), #0008 96%, #0000),
+		radial-gradient(100% 100% at 0 100%, #0000, #0008 4%, var(--_g), var(--c1) 96%) var(--c1);
+	background-size: var(--s) var(--s);
+}</style>
 		
 	</head>
 	<body>
@@ -443,7 +426,7 @@ h1 {
 			</p>
 		</footer>
 
-		<!-- This page `/tags/second-tag/` was built on 2025-09-04T06:39:51.958Z -->
+		<!-- This page `/tags/second-tag/` was built on 2025-09-04T06:43:33.078Z -->
 		<script type="module" src="/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>
