@@ -1,5 +1,5 @@
 
----js
+---
 const eleventyNavigation = {
 	key: "test",
 	order: 7
