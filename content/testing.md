@@ -1,7 +1,7 @@
 ---js
 const eleventyNavigation = {
 	key: "testing work on progress right now",
-	order: 2
+	order: 4
 };
 ---
 # test
