@@ -4,7 +4,7 @@ const eleventyNavigation = {
 	order: 2
 };
 ---
-# Gallery
+# test
 
 <h1><span style="color: red;">testing</span> one!!!</h1>
 
