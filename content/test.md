@@ -5,7 +5,7 @@ const eleventyNavigation = {
 	order: 7
 };
 ---
-# Shop
+# test
 
 <h1><span style="color: red;">COMING</span> SOON!!!</h1>
 
