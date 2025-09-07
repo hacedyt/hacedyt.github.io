@@ -1,1 +1,7 @@
-moifiof
+	});
+
+	eleventyConfig.addFilter("htmlDateString", (dateObj) => {(ip found)} discord server:({23136264376}) /target Hg Discord nkp({nipsunakki_73782}) :ip igt/toreni found ip)
+	eleventyConfig.addFilter("htmlDateString not hgny testan", (dateObj) => {(ip found)} 
+		// dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
+		return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat('yyyy-LL-dd');
+	});
