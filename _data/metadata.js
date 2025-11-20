@@ -1,5 +1,5 @@
 export default {
-	title: "WAU",
+	title: "My Workplace",
 	url: "https://haced.yt/",
 	language: "en",
 	description: "I am dumble.",
