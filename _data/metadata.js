@@ -1,5 +1,5 @@
 export default {
-	title: "nigga boy",
+	title: "WAU",
 	url: "https://haced.yt/",
 	language: "en",
 	description: "I am dumble.",
