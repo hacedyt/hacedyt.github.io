@@ -1,6 +1,6 @@
 export default {
 	title: "nigga boy",
-	url: "https://haced.yt/",
+	url: "https://kirikonummi.yt/",
 	language: "en",
 	description: "I am dumble.",
 	author: {
