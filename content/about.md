@@ -6,5 +6,4 @@ const eleventyNavigation = {
 ---
 # About Me
 
-i am n1gh7mare and i am 15 years old and i love making content. I am depressed.
-
+<h1><span style="color: red;">i am n1gh7mare and i am 15 years old./span>i love playing videogames</h1>
