@@ -369,18 +369,16 @@ h1 {
 }
 
 html {
-	--s: 112px;
-	/* control the size*/
-	--c1: #151515;
-	--c2: #000000;
-
-	--_g:
-		var(--c2) 6% 14%, var(--c1) 16% 24%, var(--c2) 26% 34%, var(--c1) 36% 44%,
-		var(--c2) 46% 54%, var(--c1) 56% 64%, var(--c2) 66% 74%, var(--c1) 76% 84%, var(--c2) 86% 94%;
-	background:
-		radial-gradient(100% 100% at 100% 0, var(--c1) 4%, var(--_g), #0008 96%, #0000),
-		radial-gradient(100% 100% at 0 100%, #0000, #0008 4%, var(--_g), var(--c1) 96%) var(--c1);
-	background-size: var(--s) var(--s);
+  --s: 220px; /* control the size*/
+  --c1: #000000;
+  --c2: #000000;
+  --c3: #3c3c3c;
+  
+  background:
+    repeating-conic-gradient(from 30deg,#0000 0 120deg,var(--c3) 0 50%) 
+     calc(var(--s)/2) calc(var(--s)*tan(30deg)/2),
+    repeating-conic-gradient(from 30deg,var(--c1) 0 60deg,var(--c2) 0 120deg,var(--c3) 0 50%);
+  background-size: var(--s) calc(var(--s)*tan(30deg));
 }</style>
 		
 	</head>
@@ -420,7 +418,7 @@ html {
 			</p>
 		</footer>
 
-		<!-- This page `/shop/` was built on 2025-11-25T08:48:15.055Z -->
+		<!-- This page `/shop/` was built on 2025-11-26T08:33:14.273Z -->
 		<script type="module" src="/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>
