@@ -354,9 +354,9 @@ h1 {
 }
 
 html {
-  --s: 221px; /* control the size*/
-  --c1: #000000;
-  --c2: #000000;
+  --s: 275px; /* control the size*/
+  --c1: #2f0e0e;
+  --c2: #141414;
   --c3: #4b1111;
   
   background:
