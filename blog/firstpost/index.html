@@ -385,6 +385,19 @@ h1 {
 	list-style: none;
 	padding: 0;
 }
+
+html {
+  --s: 230px; /* control the size*/
+  --c1: #66ff00;
+  --c2: #4e4f51;
+  --c3: #26c56b;
+  
+  background:
+    repeating-conic-gradient(from 30deg,#0000 0 120deg,var(--c3) 0 50%) 
+     calc(var(--s)/2) calc(var(--s)*tan(30deg)/2),
+    repeating-conic-gradient(from 30deg,var(--c1) 0 60deg,var(--c2) 0 120deg,var(--c3) 0 50%);
+  background-size: var(--s) calc(var(--s)*tan(30deg));
+}
 /**
  * okaidia theme for JavaScript, CSS and HTML
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
@@ -601,7 +614,7 @@ pre[class*="language-diff-"] {
 			</p>
 		</footer>
 
-		<!-- This page `/blog/firstpost/` was built on 2026-01-20T08:38:04.057Z -->
+		<!-- This page `/blog/firstpost/` was built on 2026-02-25T06:42:19.889Z -->
 		<script type="module" src="/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>
