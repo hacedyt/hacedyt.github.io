@@ -132,7 +132,7 @@ a[href]:active {
 
 main,
 footer {
-	padding: 1rem;
+	padding: 2rem;
 }
 main :first-child {
 	margin-top: 0;
