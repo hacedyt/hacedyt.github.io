@@ -24,8 +24,8 @@ dawwsadww/* Defaults */
 	--background-color: #14141400;
 
 	--text-color: var(--color-gray-90);
-	--text-color-link: #ff7300;
-	--text-color-link-active: #ff7300;
+	--text-color-link: #9300ff;
+	--text-color-link-active: #3500ff;
 	--text-color-link-visited:#e8c5c5 ;
 
 	--syntax-tab-size: 2;
