@@ -2,10 +2,10 @@ export default {
 	title: "CynaX",
 	url: "https://haced.yt/",
 	language: "en",
-	description: "I am dumble.",
+	description: "My Personal Website.",
 	author: {
 		name: "Hacedyt",
 		email: "youremailaddress@example.com",
-		url: "https://example.com/about-me/"
+		url: "https://haced.yt/"
 	}
 }
