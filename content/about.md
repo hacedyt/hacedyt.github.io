@@ -6,4 +6,4 @@ const eleventyNavigation = {
 ---
 # About Me
 
-<span style="color: darkgreen;">i am 15  years old</span>and im a VFX/GFX and AMV editor
+<span style="color: mediumslateblue;">i am 15 years old </span>and im a VFX/GFX and AMV editor
