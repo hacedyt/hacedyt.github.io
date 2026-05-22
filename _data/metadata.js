@@ -4,7 +4,7 @@ export default {
 	language: "en",
 	description: "My Personal Website.",
 	author: {
-		name: "Hacedyt",
+		name: "Lucas",
 		email: "youremailaddress@example.com",
 		url: "https://haced.yt/"
 	}
