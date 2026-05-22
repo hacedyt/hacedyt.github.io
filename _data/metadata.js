@@ -1,5 +1,5 @@
 export default {
-	title: "CynaX",
+	title: "Lucas",
 	url: "https://haced.yt/",
 	language: "en",
 	description: "My Personal Website.",
