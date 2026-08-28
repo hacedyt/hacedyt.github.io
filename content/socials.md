@@ -1,6 +1,6 @@
 ---js
 const eleventyNavigation = {
-	key: "Socials",
+	key: "Player Roster",
 	order: 2
 };
 ---
