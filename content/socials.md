@@ -6,4 +6,6 @@ const eleventyNavigation = {
 ---
 <h1><span style="color: red;">Player </span>Roster</h1>
 
-Hxced. (Owner + Main Team)
+- Hxced. ( Owner + Main Team + Designer + Editor )
+- Flowrl ( Owner + Main Team )
+- Qwntxxz ( Sub Player + CCH )
