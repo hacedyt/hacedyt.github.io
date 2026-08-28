@@ -4,7 +4,7 @@ export default {
 	language: "en",
 	description: "",
 	author: {
-		name: "Lucas",
+		name: "Team Ovalt",
 		email: "youremailaddress@example.com",
 		url: "https://haced.yt/"
 	}
