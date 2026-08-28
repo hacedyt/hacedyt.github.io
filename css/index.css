@@ -384,7 +384,3 @@ html {
   background-size: var(--s) calc(var(--s)*tan(30deg));
 }
 
-background-color: #E5E5F7;
-opacity: 0.8;
-background-image: radial-gradient(circle, #444CF7 1.2px, transparent 1.2px);
-background-size: 15px 15px;
