@@ -383,3 +383,8 @@ html {
     repeating-conic-gradient(from 30deg,var(--c1) 0 60deg,var(--c2) 0 120deg,var(--c3) 0 50%);
   background-size: var(--s) calc(var(--s)*tan(30deg));
 }
+
+background-color: #E5E5F7;
+opacity: 0.8;
+background-image: radial-gradient(circle, #444CF7 1.2px, transparent 1.2px);
+background-size: 15px 15px;
