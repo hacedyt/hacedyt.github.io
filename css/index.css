@@ -384,6 +384,40 @@ html {
   background-size: var(--s) calc(var(--s)*tan(30deg));
 }
 
+html, body {
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    background:
+        radial-gradient(
+            circle at 50% 45%,
+            rgba(112, 55, 255, 0.16),
+            transparent 25%
+        ),
+        radial-gradient(
+            circle at 20% 20%,
+            rgba(55, 80, 255, 0.10),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 80% 75%,
+            rgba(160, 40, 255, 0.10),
+            transparent 30%
+        ),
+        linear-gradient(
+            135deg,
+            #020207 0%,
+            #080414 45%,
+            #020207 100%
+        );
+
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 body {
     margin: 0;
     min-height: 100vh;
