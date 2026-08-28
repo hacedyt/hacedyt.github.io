@@ -384,3 +384,10 @@ html {
   background-size: var(--s) calc(var(--s)*tan(30deg));
 }
 
+body {
+  background-image: url("images.steamusercontent.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
