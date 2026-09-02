@@ -1,11 +1,13 @@
 ---js
 const eleventyNavigation = {
-	key: "Player Roster",
+	key: "player list ",
 	order: 2
 };
 ---
-<h1><span style="color: red;">Player </span>Roster</h1>
+<h1><span style="color: red;">Player </span>list</h1>
 
-- Hxced. ( Owner + Main Team + Designer + Editor )
-- Flowrl ( Owner + Main Team )
-- Qwntxxz ( Sub Player + CCH )
+Players who have been in RLIC
+
+-Welho
+-FlowRl
+-K1wxz
