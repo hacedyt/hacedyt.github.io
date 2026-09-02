@@ -1,5 +1,5 @@
 export default {
-	title: " Team Ovalt",
+	title: " RLIC ",
 	url: "https://haced.yt/",
 	language: "en",
 	description: "",
